@@ -440,18 +440,6 @@ Unit Tests → Integration Tests → Physics Validation → Benchmark Datasets �
 - Jupyter notebooks for exploratory analysis (preserved in repo)
 - Architecture diagrams (draw.io source files included)
 
-### 4. **Hardware-Algorithm Co-Design Process**
-
-```mermaid
-Iterative Loop:
-  1. Define physics requirements (latency, throughput, accuracy)
-  2. Design neural architecture with hardware constraints
-  3. Train with quantization-aware methods
-  4. Profile on target hardware (FPGA resource usage)
-  5. Identify bottlenecks → adjust architecture
-  6. Repeat until requirements satisfied
-```
-
 **Key Insight**: Starting with hardware limitations upfront (not post-training) leads to 5-10× better performance than naive deployment.
 
 ---
@@ -1274,3 +1262,4 @@ Your support helps:
 
 
 </div>
+
