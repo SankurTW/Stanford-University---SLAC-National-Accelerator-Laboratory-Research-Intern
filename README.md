@@ -394,14 +394,6 @@ Chosen through rigorous competitive evaluation for advanced machine learning res
 - **SLAC National Accelerator Laboratory's** pioneering work in particle physics (3 Nobel Prizes)
 - **Stanford Centre for Professional Development's** commitment to cutting-edge research training
 
-### Official Recognition
-
-> **Certificate of Completion**: *"Successfully completed all requirements for Stanford Arclight (SLAC) internship cum project from remote location. We acknowledge his passion, determination, and professionalism."*
-> 
-> — Richard H. Shaw, Dean of Admission and Financial Aid  
-> Department of Electrical Science, Stanford University  
-> March 17, 2026
-
 ### Research Collaborations
 
 **Faculty Advisors**: Stanford Electrical Engineering and Physics Departments  
@@ -1279,5 +1271,6 @@ Your support helps:
 ---
 
 *Last Updated: November 2025 | Version 1.0.0*
+
 
 </div>
