@@ -1,0 +1,2 @@
+# Stanford-University---SLAC-National-Accelerator-Laboratory-Research-Intern
+Selected for the highly prestigious Stanford Arclight (SLAC) research internship cum project through the Department of Electrical Science and Stanford Centre for Professional Development. Currently pioneering machine learning solutions for critical High-Energy Physics data analysis at the SLAC National Accelerator Laboratory.
