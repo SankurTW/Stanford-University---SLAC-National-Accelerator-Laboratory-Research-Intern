@@ -241,26 +241,6 @@ Beyond standard ML metrics, validation includes:
 - **Confusion Matrices**: Error pattern analysis
 - **Physics Plots**: Kinematic distributions, mass spectra, angular correlations
 
----
-
-#### Continuous Integration for Research
-```yaml
-CI/CD Pipeline:
-  - Unit Tests (physics calculators, data loaders)
-  - Integration Tests (end-to-end training on small dataset)
-  - Physics Validation (conservation laws, known masses)
-  - Performance Benchmarks (latency, throughput on target hardware)
-  - Documentation Generation (auto-updated from docstrings)
-```
-
-#### Compliance & Publication Standards
-- **FAIR Principles**: Findable, Accessible, Interoperable, Reusable
-- **Reproducibility**: Complete environment specification (Docker + conda)
-- **Pre-Registration**: Hypothesis and methods locked before unblinding data
-- **Open Science**: Code release synchronized with paper submission
-
----
-
 ## 🛠️ Technology Ecosystem
 
 <div align="center">
@@ -1127,6 +1107,7 @@ Your support helps:
 
 
 </div>
+
 
 
 
