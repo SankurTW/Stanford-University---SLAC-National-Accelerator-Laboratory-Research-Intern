@@ -384,7 +384,7 @@ Total Pipeline             385 μs        70 μs         10 μs ✓
 **Institution**: Department of Electrical Science & Stanford Centre for Professional Development  
 **Laboratory**: SLAC National Accelerator Laboratory, Stanford University  
 **Program**: Stanford Arclight Research Internship (Highly Competitive)  
-**Duration**: November 2025 — Present (Ongoing)  
+**Duration**: October 2025 — Present (Ongoing)  
 **Location**: Remote Research Collaboration
 
 ### Selection & Recognition
@@ -1058,7 +1058,7 @@ class QuantizedLayer(nn.Module):
 
 ## 📞 Contact & Collaboration
 
-<div align="center">
+
 
 ### **Sankur Kundu**
 
@@ -1079,22 +1079,6 @@ class QuantizedLayer(nn.Module):
 **For Research Inquiries**: sankur.kundu@stanford.edu  
 **For Collaboration Proposals**: Include "[SLAC Research]" in subject line  
 **For Technical Questions**: Open an issue on GitHub (after public release)
-
-</div>
-
-### Collaboration Opportunities
-
-**We Welcome**:
-- **Academic Collaborations**: Joint research projects, paper co-authorship
-- **Industry Partnerships**: FPGA optimization, hardware acceleration expertise
-- **Student Projects**: Graduate-level research on physics ML (with supervisor approval)
-- **Conference Presentations**: Invitations to present this work at ML/physics venues
-
-**Current Openings**:
-- Looking for collaborators with expertise in equivariant neural networks
-- Seeking feedback from experimental physicists on deployment strategies
-- Open to discussions about extending this work to other detector systems
-
 ---
 
 ## 🙏 Acknowledgments
@@ -1141,57 +1125,8 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so, subject to the some conditions:
 
-[Full MIT License text...]
-```
-
-### Data Usage Restrictions
-
-**Important**: SLAC experimental data is subject to collaboration policies:
-- Public datasets: Available for research use with proper citation
-- Preliminary/internal data: Requires SLAC collaboration approval
-- Contact SLAC collaboration coordinators for data access requests
-
-### Citation Requirements
-
-#### For Academic Use
-
-If you use this code or methods in your research, please cite:
-
-```bibtex
-@software{kundu2025mlhep,
-  author = {Kundu, Sankur},
-  title = {{Machine Learning for High-Energy Physics at SLAC National Accelerator Laboratory}},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/stanford-slac-ml-hep}},
-  note = {Stanford Arclight (SLAC) Research Internship, Department of Electrical Science, Stanford University}
-}
-```
-
-#### For Specific Components
-
-**If using ParticleNet architecture**:
-```bibtex
-@misc{kundu2025particlenet,
-  author = {Kundu, Sankur},
-  title = {Physics-Informed Graph Neural Networks for Real-Time Particle Detection},
-  year = {2025},
-  note = {Stanford SLAC Research, In preparation}
-}
-```
-
-**If using FPGA acceleration pipeline**:
-```bibtex
-@misc{kundu2025fpga,
-  author = {Kundu, Sankur},
-  title = {Hardware-Algorithm Co-Design for High-Throughput Particle Physics Triggers},
-  year = {2025},
-  note = {Stanford SLAC Research, In preparation}
-}
-```
 
 ### Commercial Use
 
@@ -1203,23 +1138,6 @@ For commercial applications or proprietary derivatives:
 
 ---
 
-## 📊 Repository Statistics
-
-<div align="center">
-
-![Stars](https://img.shields.io/github/stars/yourusername/stanford-slac-ml-hep?style=social)
-![Forks](https://img.shields.io/github/forks/yourusername/stanford-slac-ml-hep?style=social)
-![Issues](https://img.shields.io/github/issues/yourusername/stanford-slac-ml-hep)
-![License](https://img.shields.io/github/license/yourusername/stanford-slac-ml-hep)
-
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/stanford-slac-ml-hep)
-![Code Size](https://img.shields.io/github/languages/code-size/yourusername/stanford-slac-ml-hep)
-![Contributors](https://img.shields.io/github/contributors/yourusername/stanford-slac-ml-hep)
-
-**Lines of Code**: ~15,000+ production code | **Documentation**: 5,000+ lines  
-**Test Coverage**: 87% | **Notebook Tutorials**: 8 comprehensive guides
-
-</div>
 
 ---
 
@@ -1262,4 +1180,5 @@ Your support helps:
 
 
 </div>
+
 
