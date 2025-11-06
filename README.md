@@ -561,85 +561,6 @@ stanford-slac-ml-hep/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-**Software Requirements**:
-- Python 3.8+ (recommend 3.10)
-- CUDA 11.8+ (for GPU training)
-- Xilinx Vitis AI 3.0+ (for FPGA deployment)
-- ROOT 6.26+ (CERN data analysis framework)
-
-**Hardware Requirements**:
-- **Training**: 32GB+ RAM, NVIDIA GPU with 16GB+ VRAM
-- **Inference**: FPGA (Xilinx Alveo U250) or GPU (V100/A100)
-- **Storage**: 100GB+ for datasets (full SLAC data: 500GB+)
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/stanford-slac-ml-hep.git
-cd stanford-slac-ml-hep
-
-# Create conda environment
-conda env create -f environment.yml
-conda activate slac-ml-hep
-
-# Install package in development mode
-pip install -e .
-
-# Verify installation
-python -c "import torch; import torch_geometric; print('Setup complete!')"
-```
-
-### Quick Start: Training a Model
-
-```bash
-# Download sample dataset (10K events for testing)
-bash scripts/download_data.sh --sample
-
-# Preprocess ROOT files to HDF5
-python scripts/preprocess_root.py --input data/raw --output data/processed
-
-# Train ParticleNet GNN
-python training/particle_classification_project.py \
-    --model gnn \
-    --config configs/gnn_config.yaml \
-    --gpus 1 \
-    --epochs 50
-
-# Evaluate on test set
-python training/particle_classification_project.py \
-    --mode eval \
-    --checkpoint results/models/best_model.pt
-
-# Visualize results
-jupyter notebook notebooks/04_results_visualization.ipynb
-```
-
-### FPGA Deployment (Advanced)
-
-```bash
-# Ensure trained PyTorch model exists
-ls results/models/gnn_quantized.pt
-
-# Convert to FPGA bitstream
-python acceleration/fpga_acceleration.py \
-    --model results/models/gnn_quantized.pt \
-    --target xilinx_u250 \
-    --output fpga_bitstream/
-
-# Deploy to FPGA and benchmark
-python scripts/benchmark_hardware.py \
-    --platform fpga \
-    --bitstream fpga_bitstream/particle_gnn.xclbin \
-    --test-events 10000
-```
-
----
-
 ## 📊 Reproducing Key Results
 
 ### Experiment 1: Jet Classification Benchmark
@@ -776,23 +697,6 @@ python scripts/plot_hardware_comparison.py --output results/figures/
 **External Partners**:
 - Other particle physics laboratories interested in ML trigger systems
 - FPGA vendor collaborations (Xilinx/AMD) for optimization
-
-### Contributing to This Research
-
-This is an active research project. While the primary development is conducted as part of the Stanford Arclight internship, we welcome:
-
-**Scientific Discussions**:
-- Novel architectures for particle physics
-- Physics validation methodologies
-- Hardware acceleration techniques
-
-**Code Contributions** (After Publication):
-- Bug fixes and performance improvements
-- Additional model architectures
-- Extended documentation and tutorials
-
-**Please Note**: Due to the research nature and ongoing publications, major code contributions will be accepted after initial paper submissions. For collaboration inquiries, contact via email.
-
 ---
 
 ## 📚 Learning Resources
@@ -1107,6 +1011,7 @@ Your support helps:
 
 
 </div>
+
 
 
 
