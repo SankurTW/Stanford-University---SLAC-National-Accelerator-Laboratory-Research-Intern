@@ -243,22 +243,6 @@ Beyond standard ML metrics, validation includes:
 
 ---
 
-### 7. **MLOps for Scientific Reproducibility**
-**File**: `mlops_scientific.py` | **System Type**: Research Infrastructure
-
-#### Experiment Tracking (MLflow)
-Tracked metadata beyond standard ML:
-- **Physics Parameters**: Beam energy, detector configuration, luminosity
-- **Data Provenance**: Dataset version, selection cuts, trigger conditions
-- **Environmental Conditions**: Detector temperature, pressure, magnetic field
-- **Code Versioning**: Git commit hash, library versions, random seeds
-
-#### Model Registry & Governance
-- **Semantic Versioning**: Major.Minor.Patch tied to physics validation
-- **Metadata Rich**: Each model tagged with performance on physics benchmarks
-- **A/B Testing Framework**: Canary deployments for detector integration
-- **Rollback Capability**: Instant reversion if physics anomalies detected
-
 #### Continuous Integration for Research
 ```yaml
 CI/CD Pipeline:
@@ -1034,38 +1018,6 @@ class QuantizedLayer(nn.Module):
 - **Challenge**: Interfacing with legacy detector electronics (custom firmware)
 - **Timeline**: Prototype integration Q2 2026
 
-### Feature Roadmap
-
-**Near-Term (Next 3 Months)**:
-- [ ] Multi-modal fusion (combining calorimeter + tracker data)
-- [ ] Improved FPGA resource utilization (targeting 30% LUT usage)
-- [ ] Automated hyperparameter tuning (Ray Tune integration)
-- [ ] Extended documentation with video tutorials
-
-**Mid-Term (6-12 Months)**:
-- [ ] Foundation model pre-training on unlabeled physics data
-- [ ] Active learning for efficient dataset labeling
-- [ ] Cloud deployment for offline bulk processing
-- [ ] Integration with SLAC's production analysis framework
-
-**Long-Term (1-2 Years)**:
-- [ ] Multi-detector generalization (trained at SLAC, deployed at other labs)
-- [ ] Anomaly detection for new physics searches
-- [ ] Real-time feedback to accelerator control systems
-- [ ] Quantum-inspired algorithms for specialized tasks
-
----
-
-## 📞 Contact & Collaboration
-
-
-
-### **Sankur Kundu**
-
-**Research Position**: Stanford Arclight (SLAC) Research Intern  
-**Affiliation**: Department of Electrical Science, Stanford University  
-**Laboratory**: SLAC National Accelerator Laboratory
-
 ---
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sankur-kundu)
@@ -1074,11 +1026,6 @@ class QuantizedLayer(nn.Module):
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)](https://your-website.com)
 
----
-
-**For Research Inquiries**: sankur.kundu@stanford.edu  
-**For Collaboration Proposals**: Include "[SLAC Research]" in subject line  
-**For Technical Questions**: Open an issue on GitHub (after public release)
 ---
 
 ## 🙏 Acknowledgments
@@ -1125,7 +1072,7 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the some conditions:
+furnished to do so, subject to the some conditions.
 
 
 ### Commercial Use
@@ -1180,5 +1127,6 @@ Your support helps:
 
 
 </div>
+
 
 
